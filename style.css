@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    background-color: rgb(206, 140, 54);
+    color: rgb(120, 115, 197);
+}
+   
+.uld{
+   background-color: rgb(122, 130, 231);
+   padding: 12px;
+   margin: 14px;
+   border-radius: 20px;
+   border-bottom: 12px;
+   text-align: center;
+    
+
+}
+
+    
+    
+   
+    
+
+.light{
+    margin-left: 200px;
+}
+
+.lights{
+    margin-left:150px ;
+
+}
+.kk{
+    margin-right: 1000px;
+}
+.kkk{
+margin-top: 30px;
+border-color: rgb(73, 245, 5);
+}
+.bhai{
+  margin-left: 70px;
+  margin-top: 30px;
+  width: 900px;
+  border-color: rgb(241, 12, 23);
+  
+}
+ 
+ .ff{
+    width: 100%px;
+    height: 400px;
+ }
+ /* Add your styling for the footer here */
+.footer {
+    text-align: center;
+    background-color: #1a1919;
+    padding: 150px;
+  }
+  
+  .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer img {
+    width: 30px;
+    height: 25
+    px;
+  }
+  h6{
+    text-align: center;
+    padding: 10px;
+    color: rgb(247, 248, 249);
+    
+  }
+  h5{
+    text-align: center;
+    padding: 20px;
+    color: rgb(249, 250, 251);
+  }
+  
+   /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+ @media (max-width: 600px) {
+ 
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;}
+    .bhai{
+      margin-left: 100px;
+      margin-top: 50px;
+      width: 200px;
+      border-color: rgb(241, 12, 23);
+      
+    }
+    h1{
+      text-align: center;
+      background-color: rgb(206, 140, 54);
+      color: rgb(120, 115, 197);
+  }
+  .uld{
+    background-color: rgb(122, 130, 231);
+    padding: 6px;
+    margin: 6px;
+    border-radius: 15px;
+    border-bottom: 6px;
+    text-align: center;
+     
+ 
+ }
+ .lights{
+  margin-left:50px ;
+
+  }
+  .lights{
+    margin-left:50px ;
+
+}
+.kk{
+  margin-right: 100px;
+ }
+ .kkk{
+  margin-top: 10px;
+  border-color: rgb(73, 245, 5);
+  }
+  .ff{
+    width: 50%px;
+    height: 200px;
+}
+ }
